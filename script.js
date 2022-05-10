@@ -1,13 +1,13 @@
 
 $(document).ready(function() {
 
-    console.log(printObject( $('.g.tF2Cxc:nth-child(3n)') ) );
+    // console.log(printObject( $('.g.tF2Cxc:nth-child(3n)') ) );
 
-    function printObject( obj ) {
-        return obj.map( function() {
-            return $(this).text();
-        }).toArray().toString();
-    }
+    // function printObject( obj ) {
+    //     return obj.map( function() {
+    //         return $(this).text();
+    //     }).toArray().toString();
+    // }
 
 
     // let result = [];
@@ -24,16 +24,17 @@ $(document).ready(function() {
 });
 
 
-//     let arr = Array.from('.g.tF2Cxc');
-//     let searchResult = [];
-//     if(arr.length % 3 === 0) {
-//         for (let i = 0; i < arr.length; i++) {
-//             searchResult.push( arr[i].innerText );
-//         };
-//     };
+let arr = Array.from('.g.tF2Cxc');
+let searchResult = [];
+    if(arr.length % 3 === 0) {
+        for (let i = 0; i < arr.length; i++) {
+            searchResult.push( arr[i].innerText );
+            console.log(searchResult);
+        };
+    };
     
 
-// console.log(searchResult);
+
 
   
 

@@ -1866,8 +1866,17 @@ g-more-link.dGWpb {
     cursor: pointer
 }
 
+.c58wS {
+    min-width: 100px;
+}
 
+.c58wS>div:first-child {
+    width: 10%;
+}
 
+.c58wS>div:nth-child(2) {
+    width: 85%;
+}
 @media (min-width: 1539px) {
     .srp {
         --rhs-margin: 100px;
