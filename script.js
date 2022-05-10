@@ -9,21 +9,38 @@ $(document).ready(function() {
         }).toArray().toString();
     }
 
+
+    // let result = [];
+    // let arr = $([]);
+
+    // for (let i = 0; i < arr.length; i++) {
+    //     if(arr.length % 3 === 0) {
+    //         $(result).push( $(arr[i]));
+    //     }
+    // };
+
+    // console.log(result);
+
 });
 
-// function getEveryNth(arr, searchResult) {
-//     arr = $(".g.tF2Cxc");
 
-//     searchResult = [];
+//     let arr = Array.from('.g.tF2Cxc');
+//     let searchResult = [];
+//     if(arr.length % 3 === 0) {
+//         for (let i = 0; i < arr.length; i++) {
+//             searchResult.push( arr[i].innerText );
+//         };
+//     };
+    
 
-//     for (let i = 0; i < arr.length; i++) {
-//         searchResult.push($(arr[i]).innerHTML);
-//     }
+// console.log(searchResult);
+
   
-//     return searchResult;
-//   }
+
+
   
-//   console.log(getEveryNth(arr, 3));
+  
+
 
     
 
